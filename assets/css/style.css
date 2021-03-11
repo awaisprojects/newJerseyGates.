@@ -1,16 +1,42 @@
 #mainContainer {
-  border: 1px solid red;
+  height: 300px;
 }
-#mainContainer .headerContainer {
+#mainContainer .coverContainer {
+  background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+  height: 500px;
+  padding-top: 95px;
+}
+#mainContainer .coverContainer .headerContainer nav {
+  padding: 27px 0px;
+}
+#mainContainer .coverContainer .headerContainer nav ul li {
+  margin: 0px 11px;
+}
+#mainContainer .coverContainer .headerContainer nav ul li a {
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+#mainContainer .coverContainer .headerContainer nav ul li a:hover {
+  color: #ffffff;
+}
+#mainContainer .coverContainer .headerContainer nav .searchBtn {
+  background-color: #00ba94;
+  border: 0px solid;
+  color: #ffffff;
+  border-color: #00ba94;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 31px;
+  margin-left: 43px;
+}
+#mainContainer .coverContainer .headerContainer nav .searchBtn:hover {
+  background-color: #00876b;
+}
+#mainContainer .coverContainer .newProduct {
+  border: 1px solid #cccc;
+  padding: 20px;
+}
+#mainContainer .coverContainer .newProduct .row {
   border: 1px solid;
-  padding: 20px;
-  color: red;
-}
-#mainContainer .bannerContainer {
-  border: 1px solid #cccc;
-  padding: 20px;
-}
-#mainContainer .footerContainer {
-  border: 1px solid #cccc;
-  padding: 20px;
+  margin-top: 100px;
 }
