@@ -1,13 +1,33 @@
-#mainContainer {
-  height: 300px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainContainer .searchBtn {
+  background-color: #00ba94;
+  border: 0px solid;
+  color: #ffffff;
+  border-color: #00ba94;
+  border-radius: 5px;
+  outline: none;
+  padding: 12px 31px;
+}
+#mainContainer .searchBtn:hover {
+  background-color: #00876b;
+}
+#mainContainer .heading2 {
+  color: #325cea;
+  font-weight: 700;
 }
 #mainContainer .coverContainer {
+  position: relative;
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
-  height: 500px;
-  padding-top: 95px;
+  padding: 95px 0px 144px 0px;
 }
 #mainContainer .coverContainer .headerContainer nav {
   padding: 27px 0px;
+}
+#mainContainer .coverContainer .headerContainer nav ul {
+  margin-right: 43px;
 }
 #mainContainer .coverContainer .headerContainer nav ul li {
   margin: 0px 11px;
@@ -19,24 +39,58 @@
 #mainContainer .coverContainer .headerContainer nav ul li a:hover {
   color: #ffffff;
 }
-#mainContainer .coverContainer .headerContainer nav .searchBtn {
-  background-color: #00ba94;
-  border: 0px solid;
-  color: #ffffff;
-  border-color: #00ba94;
-  border-radius: 5px;
-  outline: none;
-  padding: 12px 31px;
-  margin-left: 43px;
-}
-#mainContainer .coverContainer .headerContainer nav .searchBtn:hover {
-  background-color: #00876b;
-}
 #mainContainer .coverContainer .newProduct {
-  border: 1px solid #cccc;
   padding: 20px;
 }
 #mainContainer .coverContainer .newProduct .row {
-  border: 1px solid;
   margin-top: 100px;
+  color: #ffffff;
+}
+#mainContainer .coverContainer .newProduct .row .heading {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#mainContainer .coverContainer .newProduct .row p {
+  color: rgba(255, 255, 255, 0.5) !important;
+  font-size: 18.5px;
+  font-weight: 400px;
+}
+#mainContainer .coverContainer .newProduct .row img {
+  width: 100%;
+  height: 100%;
+}
+#mainContainer .coverContainer .svgContainer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#mainContainer .galleryContainer {
+  position: relative;
+}
+#mainContainer .galleryContainer .svgContainer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#mainContainer .ourServicesContainer {
+  background-color: #f2f6fc !important;
+}
+#mainContainer .ourServicesContainer p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #69707a;
+}
+#mainContainer .ourServicesContainer ul li p {
+  margin: 10px;
+}
+#mainContainer .ourServicesContainer .servicesLinks ul {
+  display: flex;
+  flex-direction: row;
+}
+#mainContainer .ourServicesContainer .servicesLinks ul li a {
+  text-decoration: none;
 }
