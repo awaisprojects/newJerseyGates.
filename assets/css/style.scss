@@ -1,0 +1,22 @@
+// Main Container css start
+#mainContainer {
+  border: 1px solid red;
+  // Header Container css start
+  .headerContainer {
+    border: 1px solid;
+    padding: 20px;
+    color: red;
+    // Header Container css end
+  }
+  // Bannser Container css start
+  .bannerContainer {
+    border: 1px solid #cccc;
+    padding: 20px;
+    // Bannser Container css end
+  }
+  // Footer Container css start
+  .footerContainer {
+    border: 1px solid #cccc;
+    padding: 20px;
+  } // Footer Container css end
+} // Main Container css end

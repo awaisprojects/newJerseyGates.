@@ -1,0 +1,16 @@
+#mainContainer {
+  border: 1px solid red;
+}
+#mainContainer .headerContainer {
+  border: 1px solid;
+  padding: 20px;
+  color: red;
+}
+#mainContainer .bannerContainer {
+  border: 1px solid #cccc;
+  padding: 20px;
+}
+#mainContainer .footerContainer {
+  border: 1px solid #cccc;
+  padding: 20px;
+}
