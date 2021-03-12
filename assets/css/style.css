@@ -18,6 +18,10 @@ body {
   color: #325cea;
   font-weight: 700;
 }
+#mainContainer .dark-text {
+  color: #363d47;
+  font-weight: 700;
+}
 #mainContainer .coverContainer {
   position: relative;
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
@@ -84,13 +88,38 @@ body {
   line-height: 1.5;
   color: #69707a;
 }
+#mainContainer .ourServicesContainer ul li {
+  border: 0px solid;
+  background-color: #f2f6fc;
+}
 #mainContainer .ourServicesContainer ul li p {
-  margin: 10px;
+  margin: 0px;
 }
-#mainContainer .ourServicesContainer .servicesLinks ul {
+#mainContainer #ourLinksContainer {
+  padding: 20px;
+  background-color: #212832;
+  color: #ffffff;
+}
+#mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0px;
 }
-#mainContainer .ourServicesContainer .servicesLinks ul li a {
+#mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul li {
+  margin-top: 10px;
+}
+#mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul li a {
   text-decoration: none;
+  padding: 5px 13px;
+  font-size: 15px;
+  font-family: revert;
+  border-radius: 5px;
+  color: #ffffff;
+  transition: all 1s ease;
+  margin-right: 10px;
+}
+#mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul li a:hover {
+  background-color: #51bb95;
+  color: #ffffff;
 }
