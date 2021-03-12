@@ -10,6 +10,7 @@ body {
   border-radius: 5px;
   outline: none;
   padding: 12px 31px;
+  transition: all 0.9s ease;
 }
 #mainContainer .searchBtn:hover {
   background-color: #00876b;
@@ -96,9 +97,11 @@ body {
   margin: 0px;
 }
 #mainContainer #ourLinksContainer {
-  padding: 20px;
+  position: relative;
   background-color: #212832;
   color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 120px;
 }
 #mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul {
   display: flex;
@@ -122,4 +125,36 @@ body {
 #mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul li a:hover {
   background-color: #51bb95;
   color: #ffffff;
+}
+#mainContainer #ourLinksContainer .svgContainer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+#mainContainer .footerContainer {
+  background-color: #f2f6fc;
+  padding: 100px;
+  color: #a7aeb8;
+}
+#mainContainer .copyRightContainer {
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00ba94;
+  font-weight: 700;
+}
+#mainContainer .copyRightContainer h5 {
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.gateRapreSection {
+  position: relative;
+}
+.gateRapreSection p {
+  font-size: 17.5px;
+  font-weight: 400px;
+  font-family: auto;
+  color: #69707a;
 }

@@ -11,6 +11,7 @@ body {
     border-radius: 5px;
     outline: none;
     padding: 12px 31px;
+    transition: all 0.9s ease;
     &:hover {
       background-color: #00876b;
     }
@@ -112,9 +113,12 @@ body {
     }
   }
   #ourLinksContainer {
-    padding: 20px;
+    position: relative;
     background-color: #212832;
     color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 120px;
+
     .ourLinksCover {
       .servicesLinks {
         ul {
@@ -144,5 +148,38 @@ body {
         }
       }
     }
+    .svgContainer {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+  }
+  .footerContainer {
+    background-color: #f2f6fc;
+    padding: 100px;
+    color: #a7aeb8;
+  }
+  .copyRightContainer {
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #00ba94;
+    font-weight: 700;
+    h5 {
+      cursor: pointer;
+      font-size: 17px;
+      font-weight: bold;
+    }
+  }
+}
+
+// gateRapreSection
+.gateRapreSection {
+  position: relative;
+  p {
+    font-size: 17.5px;
+    font-weight: 400px;
+    font-family: auto;
+    color: #69707a;
   }
 }
