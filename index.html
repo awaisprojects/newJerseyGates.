@@ -20,15 +20,40 @@
       href="./assets/css/style.css"
     />
     <script src="main.js"></script>
+
+    <!-- javascript scroll function  -->
+    <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      function myFunction() {
+        if (
+          document.body.scrollTop > 50 ||
+          document.documentElement.scrollTop > 50
+        ) {
+          document.getElementById("awais").className =
+            "navbar navbar-expand-md navbar-dark fixed-top navBar bgNavebar";
+        } else {
+          document.getElementById("awais").className =
+            "navbar navbar-expand-md navbar-dark fixed-top navBar";
+        }
+      }
+    </script>
+    <!-- javascript scroll function  -->
   </head>
   <body>
     <div id="mainContainer">
       <div class="coverContainer">
         <div class="headerContainer">
-          <nav class="navbar navbar-expand-md navbar-dark fixed-top navBar">
+          <nav
+            class="navbar navbar-expand-md navbar-dark fixed-top navBar"
+            id="awais"
+          >
             <div class="container">
               <a class="navbar-brand mr-auto" href="#">
                 <b>New Jersey Gates</b>
+                <div id="demo"></div>
               </a>
 
               <button
@@ -62,7 +87,9 @@
                     >
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Gates Services</a>
+                    <a class="nav-link" href="./jerseyGates.html"
+                      >Gates Services</a
+                    >
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Electric Gates</a>
@@ -120,7 +147,7 @@
               </button>
             </div>
             <div class="col-lg-6">
-              <img src="./assets/images/banner2.jpg" alt="" />
+              <img src="./assets/images/banner5.jpg" alt="" />
             </div>
           </div>
         </div>

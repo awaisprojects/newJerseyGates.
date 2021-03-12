@@ -36,6 +36,8 @@ body {
     .headerContainer {
       nav {
         padding: 27px 0px;
+        transition: all 1s ease;
+
         ul {
           margin-right: 43px;
 
@@ -51,6 +53,9 @@ body {
             }
           }
         }
+      }
+      .bgNavebar {
+        background-color: rgba(#212832, 0.9);
       }
     }
     // Bannser Container css start
@@ -182,5 +187,11 @@ body {
     font-weight: 400px;
     font-family: auto;
     color: #69707a;
+  }
+}
+// newJersey
+#newJersey {
+  ul {
+    list-style: none;
   }
 }

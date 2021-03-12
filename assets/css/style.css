@@ -30,6 +30,7 @@ body {
 }
 #mainContainer .coverContainer .headerContainer nav {
   padding: 27px 0px;
+  transition: all 1s ease;
 }
 #mainContainer .coverContainer .headerContainer nav ul {
   margin-right: 43px;
@@ -43,6 +44,9 @@ body {
 }
 #mainContainer .coverContainer .headerContainer nav ul li a:hover {
   color: rgba(255, 255, 255, 0.5);
+}
+#mainContainer .coverContainer .headerContainer .bgNavebar {
+  background-color: rgba(33, 40, 50, 0.9);
 }
 #mainContainer .coverContainer .newProduct {
   padding: 20px;
@@ -157,4 +161,8 @@ body {
   font-weight: 400px;
   font-family: auto;
   color: #69707a;
+}
+
+#newJersey ul {
+  list-style: none;
 }
