@@ -140,6 +140,9 @@ body {
   padding: 100px;
   color: #a7aeb8;
 }
+#mainContainer .footerContainer h1 {
+  text-transform: uppercase;
+}
 #mainContainer .copyRightContainer {
   padding: 20px;
   text-align: center;
