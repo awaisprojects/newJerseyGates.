@@ -38,11 +38,11 @@ body {
   margin: 0px 11px;
 }
 #mainContainer .coverContainer .headerContainer nav ul li a {
-  color: rgba(255, 255, 255, 0.5);
   font-weight: 500;
+  color: #ffffff;
 }
 #mainContainer .coverContainer .headerContainer nav ul li a:hover {
-  color: #ffffff;
+  color: rgba(255, 255, 255, 0.5);
 }
 #mainContainer .coverContainer .newProduct {
   padding: 20px;

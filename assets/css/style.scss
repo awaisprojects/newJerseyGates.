@@ -42,10 +42,11 @@ body {
           li {
             margin: 0px 11px;
             a {
-              color: rgba(255, 255, 255, 0.5);
+              // color: rgba(255, 255, 255, 0.5);
               font-weight: 500;
+              color: #ffffff;
               &:hover {
-                color: #ffffff;
+                color: rgba(255, 255, 255, 0.5);
               }
             }
           }
