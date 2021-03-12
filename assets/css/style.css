@@ -59,17 +59,21 @@ body {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  font-size: 2.5rem;
+  font-size: 3vw;
   font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 600px) {
+  #mainContainer .coverContainer .newProduct .row .heading {
+    font-size: 7vw;
+  }
+}
 #mainContainer .coverContainer .newProduct .row p {
-  color: rgba(255, 255, 255, 0.5) !important;
   font-size: 18.5px;
+  color: #ffffff;
   font-weight: 400px;
 }
 #mainContainer .coverContainer .newProduct .row img {
   width: 100%;
-  height: 100%;
 }
 #mainContainer .coverContainer .svgContainer {
   position: absolute;
@@ -137,11 +141,17 @@ body {
 }
 #mainContainer .footerContainer {
   background-color: #f2f6fc;
-  padding: 100px;
+  padding: 100px 0px;
   color: #a7aeb8;
 }
 #mainContainer .footerContainer h1 {
   text-transform: uppercase;
+  font-size: 3vw;
+}
+@media screen and (max-width: 558px) {
+  #mainContainer .footerContainer h1 {
+    font-size: 4vw;
+  }
 }
 #mainContainer .copyRightContainer {
   padding: 20px;
@@ -168,4 +178,22 @@ body {
 
 #newJersey ul {
   list-style: none;
+  color: #69707a;
+}
+#newJersey ul li .listItemCover {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  #newJersey ul li .listItemCover {
+    height: 60px;
+  }
+}
+#newJersey ul li .listItemCover .svgCon {
+  margin-right: 10px;
+}
+#newJersey ul li .listItemCover .listtext p {
+  margin: 0px;
 }
