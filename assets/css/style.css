@@ -1,6 +1,10 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+body img {
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #ccc;
+}
 
 #mainContainer .searchBtn {
   background-color: #00ba94;
@@ -11,6 +15,7 @@ body {
   outline: none;
   padding: 12px 31px;
   transition: all 0.9s ease;
+  text-decoration: none;
 }
 #mainContainer .searchBtn:hover {
   background-color: #00876b;
@@ -32,6 +37,15 @@ body {
   padding: 27px 0px;
   transition: all 1s ease;
 }
+@media screen and (max-width: 768px) {
+  #mainContainer .coverContainer .headerContainer nav.bgNavebar .navbar-collapse {
+    background: transparent;
+  }
+}
+#mainContainer .coverContainer .headerContainer nav .navbar-brand {
+  padding-left: 10px;
+  text-shadow: 1px 1px 2px #212121;
+}
 #mainContainer .coverContainer .headerContainer nav ul {
   margin-right: 43px;
 }
@@ -50,6 +64,9 @@ body {
 }
 #mainContainer .coverContainer .newProduct {
   padding: 20px;
+}
+#mainContainer .coverContainer .newProduct img {
+  box-shadow: 2px 2px 5px #252525;
 }
 #mainContainer .coverContainer .newProduct .row {
   margin-top: 100px;
@@ -89,6 +106,7 @@ body {
   width: 100%;
 }
 #mainContainer .ourServicesContainer {
+  padding-top: 100px;
   background-color: #f2f6fc !important;
 }
 #mainContainer .ourServicesContainer p {
@@ -108,8 +126,8 @@ body {
   position: relative;
   background-color: #212832;
   color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 220px;
 }
 #mainContainer #ourLinksContainer .ourLinksCover .servicesLinks ul {
   display: flex;
@@ -124,7 +142,6 @@ body {
   text-decoration: none;
   padding: 5px 13px;
   font-size: 15px;
-  font-family: revert;
   border-radius: 5px;
   color: #ffffff;
   transition: all 1s ease;
@@ -146,7 +163,7 @@ body {
 }
 #mainContainer .footerContainer h1 {
   text-transform: uppercase;
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 @media screen and (max-width: 558px) {
   #mainContainer .footerContainer h1 {
@@ -162,8 +179,9 @@ body {
 }
 #mainContainer .copyRightContainer h5 {
   cursor: pointer;
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0px;
 }
 
 .gateRapreSection {
@@ -172,7 +190,6 @@ body {
 .gateRapreSection p {
   font-size: 17.5px;
   font-weight: 400px;
-  font-family: auto;
   color: #69707a;
 }
 
