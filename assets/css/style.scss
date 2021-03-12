@@ -143,6 +143,15 @@ body {
       li {
         border: 0px solid;
         background-color: #f2f6fc;
+
+        .itemCover {
+          display: flex;
+          align-items: center;
+          color: #69707a;
+          .svgIcon {
+            margin-right: 7px;
+          }
+        }
         p {
           margin: 0px;
         }

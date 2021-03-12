@@ -119,6 +119,14 @@ body img {
   border: 0px solid;
   background-color: #f2f6fc;
 }
+#mainContainer .ourServicesContainer ul li .itemCover {
+  display: flex;
+  align-items: center;
+  color: #69707a;
+}
+#mainContainer .ourServicesContainer ul li .itemCover .svgIcon {
+  margin-right: 7px;
+}
 #mainContainer .ourServicesContainer ul li p {
   margin: 0px;
 }
